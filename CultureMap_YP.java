@@ -22,12 +22,10 @@ public class CultureMap_YP extends Applet implements KeyListener{
 	long startTime = System.currentTimeMillis(); // 记录开始时间
 	 
 	public void init(){
-	    
-		str[0] = "您路过了闸北水厂。";
+	    str[0] = "您路过了闸北水厂。";
         str[1] = "您路过了沪江大学旧址。";
         str[2] = "您路过了复兴岛。";
         str[3] = "您路过了隆昌路。";
-        
 	    addKeyListener( this ); // 为接受键盘输入准备
 	    setFocusable( true ); // 获得焦点
 	}
